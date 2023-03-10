@@ -1,0 +1,13 @@
+#logo	{
+	width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(720deg);
+  transition: 1s;
+}

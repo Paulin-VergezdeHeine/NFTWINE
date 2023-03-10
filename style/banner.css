@@ -1,0 +1,17 @@
+#banner {
+	height: 100vh;
+	background-image: url("../image/Wine.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#below_banner {
+	text-align: center;
+	font-weight: bold;
+}
+

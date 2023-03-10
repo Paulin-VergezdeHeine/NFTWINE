@@ -1,0 +1,16 @@
+#footer {
+	text-align: center;
+	padding: 24px;
+}
+
+
+.list-inline a {
+  font-size: 48px;
+  color: white;
+}
+
+.list-inline a:hover {
+  color: darkgrey;
+  transition: 1s;
+}
+

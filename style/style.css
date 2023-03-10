@@ -1,0 +1,38 @@
+@import	"banner.css";
+@import "card.css";
+@import "logo.css";
+@import "footer.css";
+@import "button.css";
+@import "menu.css";
+@import "contact.css";
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+
+
+body	{
+	background: black;
+	color: white;
+	font-family: Gloock, sans-serif;
+}
+p 	{
+	font-family: sans-serif;
+}
+
+li	{
+	font-family: sans-serif;
+}
+
+@media (min-width: 576px) { 
+.cards {
+	grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 768px) {
+.cards {
+	grid-template-columns: 1fr 1fr;
+	}
+
+}
+
+
